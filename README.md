@@ -1,4 +1,3 @@
-# DevOps Shack
 
 ## CI/CD Pipeline Migration Lab
 
@@ -515,31 +514,3 @@ docker ps -a
 docker logs app
 curl -i http://localhost:8082/health
 ```
-
----
-
-## DevOps learning outcomes
-
-After completing this **DevOps Shack** project, you should be able to explain and demonstrate:
-
-- How Jenkins concepts translate into GitHub Actions concepts.
-- Why CI and CD should be separated into dependent jobs.
-- How OIDC removes the need for stored cloud access keys.
-- How ECR registry output is passed into Docker build and push commands.
-- Why immutable image tags improve traceability and rollback.
-- How SSM enables remote deployment without direct SSH from CI.
-- Why deployment completion and application health are different checks.
-- How to migrate a pipeline incrementally without changing the application server.
-
----
-
-## About DevOps Shack
-
-**DevOps Shack** creates practical, production-oriented learning content across DevOps, DevSecOps, cloud, containers, Kubernetes, Terraform, GitOps, observability and AI for DevOps.
-
-- Website: [devopsshack.com](https://devopsshack.com)
-- GitHub: [github.com/jaiswaladi246](https://github.com/jaiswaladi246)
-
-### Built for the DevOps community by DevOps Shack
-
-**Learn. Build. Automate.**
